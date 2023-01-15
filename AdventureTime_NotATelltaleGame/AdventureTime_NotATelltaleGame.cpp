@@ -9,6 +9,7 @@
 #include <chrono>
 #include <thread>
 #include <conio.h>
+#include<bits.h>
 using namespace std;
 using namespace std::this_thread; // sleep_for, sleep_until
 using namespace std::chrono; // nanoseconds, system_clock, seconds
@@ -230,8 +231,8 @@ void map() {
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@,                    ,@@@@@                                                      @@@          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
      *Pick a location to go to *     @@@@@       ,@@@@@@@@@@@@#               (@@@@@@                                                     (@           @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
                                      @@@@@       @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  #@@@                                                 (@@            &@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-[0] THE CANDY KINGDOM - YOU ARE HERE @@@@@@       @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@    @@(                                      @      #@@             @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-[1] MARCELINE'S CAVE                 @@@@@@       #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@                                        @@@  .@@@/               @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[0] THE CANDY KINGDOM - YOU ARE HERE @@@@@@       @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@    @@(                                      @      #@@             @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[1] MARCELINE'S CAVE                 @@@@@@       #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@                                        @@@  .@@@/               @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 [2] THE GRASSLANDS                   @@@@@@         @@@@@@@@@@@@@@@     @@@@@@@@@@@                                 ,@@@@%                (   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 [3] THE MOUNTAIN KINGDOM             @@@@@@@          %@@@@@@@@@,       @@@@@@@@@@@@@@@@                     @@@@@@(                   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 [4] THE FIRE KINGDOM                 @@@@@@@@&              ,        .@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@       @   ,@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -327,7 +328,7 @@ void optionmenu() {
 };
 void copyscreen() {
 	cout << R"( _______________________________________________________________________________ 
-|Current version:ver.(1.3.0)| R4C15T Studio (c) 2021-2023 | All rights reserved |
+|Current version:ver.(1.3.6)| R4C15T Studio (c) 2021-2023 | All rights reserved |
 |_______________________________________________________________________________|
 )" << endl;;
 };
@@ -581,6 +582,92 @@ void kidnap() {
 
 };
 
+void jakethedog() {
+	cout << R"(                                                                                                    
+                                                                                                    
+                                          .*(%%%%%%%%%%#/,                                          
+                                    (%%%%%%%%%%%%%%%%%%%%%%%%%%%,                                   
+                                *%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%                                
+                              %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*                             
+                            (%%%%%%%%%%#*,../#%%%%%%%%%%%%%%%%%%%%%%(,                              
+                           %%%%%%%%%   &@@@@@@@@,#%%%%%%%%%%%%%%%.  @@@@@@@@@                       
+                          %%%%%%%%.  @@@@@@@@@@@@@.#.%%%%%%%%%%%/ .@@@@@@@@@@@,                     
+                         ,%%%%%%%#  .@@@@@@@@@@@@,%%%%%%%%%%%%%%%%% @@@@@@@@@@&                     
+                         #%%%%%%%#   @@@@@@@@@@@ %%%%%%/       %%%%%,@@@@@@@@@*                     
+                         %%/%%%.%%*  .@@@@@@@@@/%%%%%%%%      #%%%%%%(@@@@@@@,                      
+                         %%.%%((%%%%,   *@@@@@( %%%%%%%% %%%%*%%%%%%%     .                         
+                         %%%%%%%%%%%%%%%%#((#%%#(%%%%%%%/%%%%%,%%%%% %%%%%.                         
+                         %%%%%%%%%%%%%%%%%%%%%%%%**%%# %%%%%%%%%#/#%%%%%%%.                         
+                         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %                        
+                        (%%%%%.%%%.%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.%%/                      
+                        %%%%%%.%%%,%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% (%%(                     
+                       %%%%%%%/%%%#%%%%%%%%%%%%(%%%%%%%%%%%%%%%%#//%%%%%%(  (%%*                    
+                       %%%%%%%%/%%%*%%%%%%% #%%%./#%%%%%%%%%%% ,#%%%%% %%,   %%%                    
+                       %%%%%%%%.%%% %%%.(%%%% ,# (%%%%%%%%%%%%%. /%**%%%%.   /%%/                   
+                  *    %%%%%%%%(%%%%/%%%%%.%%%%%%%%%%%%%%%%%%%%%%%%%%%*/%%%%%%%%.                   
+                    %*.%%%%%%%%%.%%%%%%.%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   ,/*                      
+                     %%.%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#                            
+                         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%                             
+                          *%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#                              
+                            ,%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%                                
+                               (%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%(                                  
+                                 /%%%%#%%%%%%%%%%%%%%%%%%%%#.*%%#                                   
+                                  #%%%.                       %%%                                   
+                                   %%%#                       #%%#                                  
+                                   #%%%                       (%%#                                  
+                                   *%%%                       (%%#                                  
+                                   *%%%                       (%%/                                  
+                                   (%%%                       %%%                                   
+                                   %%%*                      *%%#                                   
+                                  (%%#                      .%%%#,                                  
+                                 *%%%%%,                       ,(#/                                 
+                                     ..                                                             
+                                                                                                    
+)";
+
+};
+
+void jakemonster() {
+	cout << R"(@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*#%@@@@@@@@@@@@@@@@@@@@@@@# @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@##.@@@@@@&     #@@@@@@@##,@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@##*###################,,@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.   ########################@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#  &&#    #########.   &    ###*,@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   &&&    ########(   &&&    ###,, @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#  .  ####   #####   .&     ###,,,,@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@(######.,,,,,,,,,, ,,#   /######,,,,,@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ ####/%%%&&&,&&&&%%%*(##########(,,,, @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ ####.%%(&&&#&&&.%%% ( ##########,,,,,@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@/#####%#((& ( & (*%( (*###########,,,,,@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@/#######..... ......,..####%########,,,,,,.@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@ ######*##.............#####,#########,,,,,,,,,*@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@,###########........ //#####(*# ########,,,,,,,,,, @@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@############......///// ####,,###########,,,,,,,,,,,@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@,##########.....  //,&**/#####,############,,,,,,,,,,,@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@ #########  &,(#&& (&&& ,%,################,,,,,,,,,,,,@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@ ###.@@@@@@#########&.&&& %&&&(&&&& %*################,,,,,,,,,,,,@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@.###### @@@@########  &&&  %&%,,  ,, ################,,,,,,,,,,,, @@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@.##, #####@@@######### ,,,,,,,,,, ################## ####, ,,,,,,@#.#####@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@##,,@(#####/@################################### ####(#/, ,,,, ####% *#*@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@##(,@@@/###### ##############################*####,,,##,,.,, ##.@@@@,##,@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@ ##,@@@@@@ ###################################*,, ,,,##,,**#@@@@@@@@,##@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@##, @@@@@@@@.######################## ####,,, ,,.  /##,.@@@@@@@@@@.,##@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@##*,@@@@@@@@@@@@  ##(, #,,.@@@@######*,,, @@@@@@@@@.##, @@@@@@@@@@,## @@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@.##,@@@@@@@@@@@@@@@@#(##,,,@@@@@@@@@@@@@@@@@@@@@@@@##(,@@@@@@@@@@@,##@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@&##,/@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@##,,@@@@@@@@@@ ###@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@.##/.@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ ##, @@@@@@@@@@@%%@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@####, @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@##*,@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ ###, @@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ # .@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+)";
+
+};
+
 void enter() {
 
 	cout << "Press [ENTER] to Continue\n";
@@ -594,6 +681,15 @@ void fullscreen()
 	keybd_event(VK_RETURN, 0x1c, KEYEVENTF_KEYUP, 0);
 	keybd_event(VK_MENU, 0x38, KEYEVENTF_KEYUP, 0);
 }
+
+std::string repeat(const std::string& word, int times) {
+	std::string result;
+	result.reserve(times * word.length()); // avoid repeated reallocation
+	for (int a = 0; a < times; a++)
+		result += word;
+	return result;
+}
+
 
 int death() {
 	ifstream fin("stats.txt");
@@ -610,11 +706,77 @@ int death() {
 	death1 = death0 + 1;
 	ofstream fout("stats.txt");
 	fout << death1 << " " << secret0 << " " << start0 <<" "<<wins0<< endl;
-	
-	system("Color 0C");
+	int deathani = 20;
+	while (deathani>-1){
+		Sleep(50);
+		system("CLS");
+		cout << R"(
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+                                                              
+
+
+                                                                               |   YOUR HP   | )";
+		int numero = 1;
+		string health = "[]";
+		while (numero == 1) {
+			numero = 1;
+			std::cout << repeat("[]", deathani);
+			if (deathani == 13) {
+				system("Color 06");
+			}
+			if (deathani == 7) {
+					system("Color 0D");
+			}    
+			if (deathani == 1) {
+				system("Color 04");
+			}
+			numero++;
+		}
+	deathani--;
+	}
+	Sleep(1000);
+	system("CLS");
 
 	
 	cout << R"(
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                                                                                                                                                     
                                                                                                                                                     
 YYYYYYY       YYYYYYY     OOOOOOOOO     UUUUUUUU     UUUUUUUU     DDDDDDDDDDDDD      IIIIIIIIIIEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDD              !!! 
@@ -699,6 +861,7 @@ int main()
 		}
 
 		getline(cin, start);
+		system("CLS");
 		if (start == "o" || start == "O") {
 			while (h == 1)
 			{
@@ -773,7 +936,7 @@ int main()
 						cout << "1. ?????\n";
 					}
 					else {
-						cout << "1. YOUR FIRST WIN\n";
+						cout << "1. YOU BEAT ICE KING\n";
 					}
 					if (sli == 0) {
 						cout << "2. ?????\n";
@@ -948,6 +1111,12 @@ while (wo < 6)
 	system("CLS");
 	system("Color 0B");
 	kidnap();
+	int xxe = 0;
+	while (xxe < 6) {
+		system("Color 03");
+		system("Color 0B");
+		xxe++;
+	}
 	enter();
 	system("CLS");
 	system("Color 0A");
@@ -990,8 +1159,8 @@ while (wo < 6)
 			map();
 			cin>> loc;
 		}
-		system("Color 0A");
 		system("CLS");
+		system("Color 0A");
 		if (loc == 0) {
 			cout << "Searching around The Candy Kingdom...\n";
 			enter();
@@ -1055,9 +1224,172 @@ while (wo < 6)
 							enter();
 						}
 						else {
-							if (wpn < 80) {
+							if (wpn < 90) {
 								cout << player_name << ": WOW! I found JAKE THE MAGICAL DOG!\n";
 								cout << "JAKE: 'sup\n";
+								enter();
+								jakethedog();
+								cout << "JAKE: How can i help you, " << player_name << "?\n";
+								cout << player_name << " I need you to help me save " << ppb << "!\n";
+								enter();
+								if(wpn>80){
+									system("CLS");
+									jakemonster();
+									cout << "JAKE: YOU CAME TO THE WRONG PLACE BUDDY!\n";
+									cout << "Press [ENTER] to fight!";
+									HP = 100;
+									DMG = 10;
+									int CDMG;
+									int JHP = 100;
+									int JDMG;
+									int Stance;
+									int dodgechance;
+									int blockchance;
+									int chargechance;
+									while (JHP > 0 && HP > 0) {
+										system("CLS");
+										cout << "|   YOUR HP   | ";
+										int playerhealthmajor = HP / 5;
+										int playerhealthminor = HP % 5;
+										while (playerhealthmajor > 0) {
+											cout << "[]";
+											playerhealthmajor--;
+										}
+										while (playerhealthminor > 0) {
+											cout << ".";
+											playerhealthminor--;
+										}
+										cout << " " << HP << endl;
+										cout << "| ICE KING HP  | ";
+										int jakehealthmajor = JHP / 5;
+										int jakehealthminor = JHP % 5;
+										while (jakehealthmajor > 0) {
+											cout << "[]";
+											jakehealthmajor--;
+										}
+										while (jakehealthminor > 0) {
+											cout << ".";
+											jakehealthminor--;
+										}
+										cout << " " << JHP << endl;
+										int Istance = rand() % 9 + 1;//attack,block
+										Stance = 4;
+										//cout << Istance<<endl;//verify
+										CDMG = DMG + rand() % 10;
+										JDMG = rand() % 10 + 10;
+										if (Istance > 5) {
+											cout << "*JAKE TAKES A DEFENSIVE STANCE*\n";
+											while (Stance < 1 || Stance>2) {
+												cout << "*CHOOSE A STANCE*\n[1] ATTACK\n[2] CHARGE\n";
+												cin >> Stance;
+												if (Stance == 2) {
+													chargechance = rand() % 10 + 1;
+													cout << "*YOU CHARGE*\n";
+													if (chargechance > 5) {
+														cout << "You charged successfully !\n";
+														cout << "You deal " << CDMG << " damage" << endl;
+														JHP = JHP - CDMG;
+													}
+													if (chargechance < 6) {
+														cout << "You missed !\n";
+														cout << "JAKE deals " << JDMG / 2 << " damage" << endl;
+														HP = HP - JDMG / 2;
+													}
+												}
+												if (Stance == 1) {
+													cout << "*YOU ATTACK*\n";
+													blockchance = rand() % 10 + 1;
+													if (blockchance < 6) {
+														cout << "JAKE blocked successfully ! \n";
+														cout << "You deal " << CDMG / 3 << " damage" << endl;
+														JHP = JHP - CDMG / 3;
+														cout << "JAKE deals " << JDMG / 2 << " damage" << endl;
+														HP = HP - JDMG / 2;
+													}
+													if (blockchance > 5) {
+														cout << "JAKE failed to block !\n";
+														cout << "You deal " << CDMG << " damage" << endl;
+														JHP = JHP - CDMG;
+														cout << "JAKE deals " << JDMG / 2 << " damage" << endl;
+														HP = HP - JDMG / 2;
+													}
+												}
+											}
+										}
+										else {
+											cout << "*JAKE TAKES A OFFENSIVE STANCE*\n";
+											while (Stance < 1 || Stance>3) {
+												cout << "*CHOOSE A STANCE*\n[1] ATTACK\n[2] BLOCK\n[3] DODGE\n";
+												cin >> Stance;
+												if (Stance == 1) {
+
+													cout << "*YOU ATTACK*\n";
+													cout << "You deal " << CDMG << " damage" << endl;
+													JHP = JHP - CDMG;
+													cout << "JAKE deals " << JDMG << " damage" << endl;
+													HP = HP - JDMG;
+												}
+												if (Stance == 2) {
+
+													cout << "*YOU BLOCK*\n";
+													blockchance = rand() % 10 + 1;
+													if (blockchance < 6) {
+														cout << "You blocked successfully ! \n";
+														cout << "You deal " << CDMG / 2 << " damage" << endl;
+														JHP = JHP - CDMG / 2;
+														cout << "JAKE deals " << JDMG / 3 << " damage" << endl;
+														HP = HP - JDMG / 3;
+													}
+													if (blockchance > 5) {
+														cout << "You failed to block !\n";
+														cout << "You deal " << CDMG / 2 << " damage" << endl;
+														JHP = JHP - CDMG / 2;
+														cout << "JAKE deals " << JDMG << " damage" << endl;
+														HP = HP - JDMG;
+													}
+												}
+												if (Stance == 3) {
+
+													cout << "*YOU DODGE*\n";
+													dodgechance = rand() % 10 + 1;
+													if (dodgechance < 4) {
+														cout << "You dodged successfully !\n";
+													}
+													if (dodgechance > 3 && dodgechance < 8) {
+														cout << "You dodged partially !\n";
+														cout << "JAKE deals " << JDMG / 3 << " damage" << endl;
+														HP = HP - JDMG / 3;
+													}
+													if (dodgechance > 7) {
+														cout << "You failed to dodge !\n";
+														cout << "JAKE deals " << JDMG << " damage" << endl;
+														HP = HP - JDMG;
+													}
+												}
+											}
+
+										}
+										enter();
+										cin.ignore();
+									}
+
+									if (HP < 1) {
+										if (loc == -1) {
+											ifstream fin("achievements.lkt");
+											int wi, sli, slf;
+											fin >> wi;
+											fin >> sli;
+
+											slf = 1;
+											ofstream fout("achievements.lkt");
+											fout << wi << " " << slf << endl;
+										}
+										death();
+										return main();
+									}
+									
+								}
+								cout << "JAKE: Ok. I will help you.\n";
 								DMG = 33, HP = 115;
 								cout << "YOUR NEW STATS ARE:\nHP= " << HP << "   DMG= " << DMG << " - " << DMG + 10 << endl;
 								enter();
@@ -1208,11 +1540,12 @@ while (wo < 6)
 				}
 			}
 		}
-	cout << player_name << ": Now i can go to the Ice Kingdom to rescue Princess Bubblegum\n";
+	cout << player_name << ": Now i can go to the Ice Kingdom to rescue Princess Bubblegum.\n";
 	cout << "Press [ENTER] to go to the ICE KINGDOM\n";
 	cin.ignore();
 	cout << "Going to the Ice Kingdom...\n";
 	enter();
+	system("CLS");
 	system("Color 0B");
 	cout << R"(    
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@,*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -1295,7 +1628,7 @@ while (wo < 6)
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%*,           ......................         .,%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@                                                                       
 )" << endl;
 	cout << ice << ": You're gonna have to get through me first!\n" << endl;
-	cout << "Press [ENTER] to fight\n";
+	cout << "Press [ENTER] to fight!\n";
 	cin.ignore();
 	system("CLS");
 	system("Color 0A");
@@ -1307,12 +1640,37 @@ while (wo < 6)
 	int blockchance;
 	int chargechance;
 	while (IHP > 0 && HP > 0) {
-		cout << "YOUR HP: " << HP << "\nICE KING HP: " << IHP << endl;
+		system("CLS");
+		cout << "|   YOUR HP   | ";
+		int playerhealthmajor = HP / 5;
+		int playerhealthminor = HP % 5;
+		while (playerhealthmajor > 0) {
+			cout << "[]";
+			playerhealthmajor--;
+		}
+		while (playerhealthminor > 0) {
+			cout << ".";
+			playerhealthminor--;
+		}
+		cout << " " << HP << endl;
+		cout << "| ICE KING HP | ";
+		int icehealthmajor = IHP / 5;
+		int icehealthminor = IHP % 5;
+		while (icehealthmajor > 0) {
+			cout << "[]";
+			icehealthmajor--;
+		}
+		while (icehealthminor > 0) {
+			cout << ".";
+			icehealthminor--;
+		}
+		cout <<" "<< IHP << endl;
 		int Istance = rand() % 9+1;//attack,block
 		Stance = 4;
 		//cout << Istance<<endl;//verify
 		CDMG = DMG + rand() % 10;
-		IDMG = rand() % 15 + 10;
+		IDMG = rand() % 10 + 15;
+		//cout << IDMG;//verify
 		if (Istance > 5) {
 			cout << "*" << ice << " TAKES A DEFENSIVE STANCE*\n";
 			while (Stance < 1 || Stance>2) {
@@ -1394,8 +1752,8 @@ while (wo < 6)
 					}
 					if (dodgechance > 3 && dodgechance < 8) {
 						cout << "You dodged partially !\n";
-						cout << "ICE KING deals " << IDMG / 2 << " damage" << endl;
-						HP = HP - IDMG/2;
+						cout << "ICE KING deals " << IDMG / 3 << " damage" << endl;
+						HP = HP - IDMG/3;
 					}
 					if (dodgechance > 7) {
 						cout << "You failed to dodge !\n";
@@ -1510,7 +1868,7 @@ enter();
 system("Color 0A");
 system("CLS");
 cout << "PRINCESS BUBBLEGUM: Thank you for saving me!\n";
-	cout << player_name << ": Oh it was nothing really\n";
+	cout << player_name << ": Oh it was nothing really...\n";
 
 	enter();
 	system("CLS");
@@ -1648,9 +2006,8 @@ cout << R"(@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 		ofstream fout("achievements.lkt");
 		fout << wf << " " << sli << endl; }
 		system("CLS");
-		system("Color 0A");
-		cout << "Press [ENTER] to go to the Main Menu\n";
-		cin.ignore();
+		system("Color 0C");
+		Sleep(1000);
 		system("CLS");
 		return main();
 	}

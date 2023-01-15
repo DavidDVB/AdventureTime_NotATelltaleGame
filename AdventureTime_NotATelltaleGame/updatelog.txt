@@ -10,3 +10,5 @@ ver(1.1.0) ascii art for winning,stats for winning;
 ver(1.1.5) new weapons;
 ver(1.2.0) options menu,new options;
 ver(1.3.0) big revamp of some images and new animations,fixed untrue fullscreen bug,new weapons;
+ver(1.3.5) Jake the Dog fight update,changed damage dealt by enemies when partially dodging,completely removed monika.chr from game files;
+ver(1.3.6) changed damage dealt by Ice King from 10-25 to 15-25, new health display;
